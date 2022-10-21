@@ -1,3 +1,52 @@
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "NunitoSans-Regular";
+  src: "./Fonts/Nunito_Sans";
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background: #ffffff;
+}
+
+.logo {
+  height: 100px;
+}
+
+.nav-list {
+  height: 70px;
+  background: rgb(226, 211, 179);
+  box-shadow: 0px 0px 10px #c8c8c8;
+  padding: 1rem 0;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+.nav-item:hover,
+a:hover {
+  color: rgb(181, 169, 160);
+}
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 0.8rem;
+}
+
+.nav-item:last-child {
+  margin-right: 2rem;
+}
