@@ -1,57 +1,76 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 
-<html lang="de"> 
-        <!-- Head Bereich beginnt hier --> 
+<html lang="de">
+  <!-- Head Bereich beginnt hier -->
 
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Personal Website</title>
 
-  <title> Personal Website </title>
+    <link rel="Stylesheet" href="Stylesheet.css" />
+  </head>
 
-  <link rel="Stylesheet" href="Stylesheet.css">
- 
-</head>
+  <!-- Body Bereich beginnt hier -->
+  <body>
+    <header>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#">
+            <img
+              class="logo"
+              src="logo/LogoBlack.svg"
+              alt="Portfolio Kirsten Schuhmann"
+            />
+          </a>
+        </li>
 
+        <li class="nav-item">
+          <a href="#">Home</a>
+        </li>
 
-<!-- Body Bereich beginnt hier -->
-<body>         
-        <navbar>
-        
-                        
-                        
-                        <ul class="nav-list"> 
+        <li class="nav-item">
+          <a href="#">Über mich </a>
+        </li>
 
-                                <li class="nav-item">
-                                <a href="#"><img class="logo" src="logo/Logo.svg" alt="Portfolio Kirsten Schuhmann" href="#">
-                                </a>   
-                                </li>
-                                
-                                <li class="nav-item">
-                                <a href="#">Home</a>   
-                                </li>
-              
-                                <li class="nav-item">
-                                <a href="#">Über mich </a>
-                                </li>
-              
-                                <li class="nav-item">
-                                <a href="#">Meine Arbeiten </a>
-                                </li>
-              
-                                <li class="nav-item"> 
-                                <a href="#">Blog</a>
-                                </li>
-                                                          
-                        </ul>
-                                         
-                                                
-                        </div>
-        
-        </navbar>
+        <li class="nav-item">
+          <a href="#">Meine Arbeiten </a>
+        </li>
 
+        <li class="nav-item">
+          <a href="#">Blog</a>
+        </li>
+      </ul>
+    </header>
 
-</body>
+    <main>
+      <h1>Willkommen auf meiner Webseite</h1>
+
+      <p class="Einleitungstext">
+        Auf dieser Webseite möchte ich Euch ein paar meiner Bilder zeigen, die
+        ich innherhalb der Zeitspanne 2016 - 2019 aufgenommen habe.
+      </p>
+
+      <img class="Bilder" src="/Bilder/Anthimos.jpeg" alt="BarockHengst" />
+      <img class="Bilder" src="/Bilder/Honey.jpeg" alt="Shetty" />
+      <img
+        class="Bilder"
+        src="/Bilder/NativeHorse.jpeg"
+        alt="Tanja Riedinger mit Estella"
+      />
+      <img class="Bilder" src="/Bilder/Bisbal.jpeg" alt="PRE-Pferd" />
+    </main>
+
+    <footer>
+      <ul class="WichtigeInformationen">
+        <li>
+          <a class="WichtigeInformationen" href="#">
+            Weitere Informationen folgen
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
