@@ -13,29 +13,26 @@ body {
   font-family: "Nunito Sans", sans-serif;
   background: #ffffff;
 }
-main {
-  margin: 0 auto;
-  width: 1320px;
-}
+
+/* Header und Navigationsbereich */
 
 .logo {
   height: 50%;
 }
 
 .nav-list {
-  height: 80px;
-  background: rgb(188, 188, 188);
-  box-shadow: 0px 0px 10px #c8c8c8;
-  padding: 1rem 0;
-  font-size: 20px;
-  text-align: center;
-  list-style: none;
   position: relative;
+  height: 80px;
   width: 100%;
   top: 0;
+  background: rgb(188, 188, 188);
+  padding: 1rem 0;
+  font-size: 24px;
+  text-align: center;
+  list-style: none;
   display: flex;
   gap: 10px;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -51,37 +48,54 @@ main {
 a:hover {
   color: rgb(100, 100, 100);
 }
-.nav-item:first-child {
-  margin-right: auto;
-  margin-left: 0.8rem;
-}
-
-.nav-item:last-child {
-  margin-right: 2rem;
+/* Main Bereich */
+main {
+  margin: 0 auto;
 }
 h1 {
   text-align: center;
   margin: 0 auto;
   padding: 50px;
+  color: rgb(100, 100, 100);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .Einleitungstext {
+  background-color: rgb(246, 246, 246);
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  margin: 0 auto;
+}
+.Einleitungstext p {
+  color: rgb(70, 70, 70);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
+}
+
+.BoxBilder {
   position: relative;
   display: flex;
-  width: 50%;
-  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Bilder {
-  display: flex;
+  justify-content: center;
   width: 700px;
-  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 40px;
   position: relative;
   left: auto;
   right: auto;
-  margin: 20px;
-  gap: 30px;
 }
+/* Ab hier Footer */
 
 footer {
   color: rgb(188, 188, 188);
@@ -90,6 +104,8 @@ footer {
   height: 50px;
 }
 .WichtigeInformationen {
+  position: absolute;
+  bottom: 0;
   display: flex;
   align-items: flex-end;
   text-decoration: none;
