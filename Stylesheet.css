@@ -12,20 +12,21 @@
 body {
   font-family: "Nunito Sans", sans-serif;
   background: #ffffff;
+  position: relative;
 }
 
 /* Header und Navigationsbereich */
 
-.logo {
-  height: 50%;
-}
-
-.nav-list {
+.personalWebsite__header {
   position: relative;
   height: 80px;
   width: 100%;
   top: 0;
   background: rgb(188, 188, 188);
+}
+
+.personalWebsite__nav {
+  position: inherit;
   padding: 1rem 0;
   font-size: 24px;
   text-align: center;
@@ -39,10 +40,12 @@ body {
 .nav-item {
   margin-right: 2rem;
 }
-
 .nav-item a {
   text-decoration: none;
   color: white;
+}
+.logo {
+  height: 50%;
 }
 
 a:hover {
@@ -97,16 +100,25 @@ h1 {
 }
 /* Ab hier Footer */
 
-footer {
-  color: rgb(188, 188, 188);
+.personalWebsite__footer {
+  background: rgb(188, 188, 188);
   position: absolute;
   bottom: 0;
-  height: 50px;
+  min-height: 60px;
+  height: 100px;
+  width: 100%;
 }
-.WichtigeInformationen {
-  position: absolute;
-  bottom: 0;
+
+.personalWebsite__footer_nav {
+  position: relative;
   display: flex;
-  align-items: flex-end;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.personalWebsite__footer_nav__ankertext {
+  font-size: 20px;
+  color: white;
   text-decoration: none;
 }
