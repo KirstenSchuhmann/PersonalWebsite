@@ -1,0 +1,54 @@
+/* Main Bereich */
+main {
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  padding: 50px;
+  color: rgb(100, 100, 100);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Einleitungstext {
+  background-color: rgb(246, 246, 246);
+  position: relative;
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  width: 90%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+.Einleitungstext {
+  color: rgb(70, 70, 70);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  line-height: 24px;
+}
+
+.BoxBilder {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Bilder {
+  justify-content: center;
+  width: 90%;
+  max-width: 700px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 40px;
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
+.Bilder:last-child {
+  margin-bottom: 120px;
+}

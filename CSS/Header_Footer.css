@@ -1,0 +1,61 @@
+.personalWebsite__header {
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+
+.personalWebsite__nav {
+  position: inherit;
+  padding: 1.5rem 0;
+  font-size: 1.5em;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background: rgb(188, 188, 188);
+}
+.nav-item {
+  margin-right: 2rem;
+}
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  position: relative;
+  height: 2.5em;
+  color: #ffffff;
+}
+
+a:hover {
+  color: rgb(100, 100, 100);
+}
+
+/* Ab hier Footer */
+
+.personalWebsite__footer {
+  margin-top: 40px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.personalWebsite__footer_nav {
+  position: absolute;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(188, 188, 188);
+}
+
+.personalWebsite__footer_nav a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
