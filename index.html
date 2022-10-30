@@ -10,7 +10,7 @@
 
     <title>Personal Website</title>
 
-    <link rel="Stylesheet" href="Stylesheet.css" />
+    <link rel="Stylesheet" href="CSS/style.css" />
   </head>
 
   <!-- Body Bereich beginnt hier -->
@@ -19,36 +19,33 @@
     <header class="personalWebsite__header">
       <ul class="personalWebsite__nav">
         <li class="nav-item">
-          <a href="#">
+          <a href="index.html">
             <img
-              class="logo"
-              src="Logo/Logo_black.svg"
+            src="/Logo/Logo_white.svg" class="logo"
               alt="Portfolio Kirsten Schuhmann"
             />
           </a>
         </li>
         <li class="nav-item">
-          <a href="#">Home</a>
+          <a href="UeberMich.html">Über mich </a>
+        </li>
+        <li class="nav-item">
+          <a href="Testseite.html">Testseite</a>
         </li>
 
-        <li class="nav-item">
-          <a href="#">Über mich </a>
-        </li>
+        
     </header>
 
     <!-- Main Content -->
     <main>
       <h1>Willkommen auf meiner Webseite</h1>
 
-      <div class="Einleitungstext">
+      <section class="Einleitungstext"> Auf dieser Webseite möchte ich Euch ein paar meiner Bilder zeigen, die
+        ich innherhalb der Zeitspanne 2016 - 2019 aufgenommen habe.</section>
+        
 
-      <p>
-        Auf dieser Webseite möchte ich Euch ein paar meiner Bilder zeigen, die
-        ich innherhalb der Zeitspanne 2016 - 2019 aufgenommen habe.
-</div>
-      </p>
 
-      <div class="BoxBilder">
+      <section class="BoxBilder" aria-label="Bilder von Pferden">
         <img class="Bilder" src="/Bilder/Anthimos.jpeg" alt="BarockHengst" />
         <img class="Bilder" src="/Bilder/Honey.jpeg" alt="Shetty" />
 
@@ -58,7 +55,7 @@
           alt="Tanja Riedinger mit Estella"
         />
         <img class="Bilder" src="/Bilder/Bisbal.jpeg" alt="PRE-Pferd" />
-      </div>
+      </section>
     </main>
 
     <!-- Footer -->
@@ -66,7 +63,7 @@
       <nav>
         <ul class="personalWebsite__footer_nav">
           <li>
-            <a class="personalWebsite__footer_nav__ankertext" href="#">
+            <a href="#">
               Weitere Informationen folgen
             </a>
           </li>
