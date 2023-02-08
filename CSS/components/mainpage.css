@@ -12,21 +12,18 @@ h1 {
 }
 .Einleitungstext {
   background-color: rgb(246, 246, 246);
-  position: relative;
-  border-radius: 20px;
-  padding: 24px;
-  display: flex;
-  width: 90%;
-  max-width: 550px;
-  margin: 0 auto;
-}
-.Einleitungstext {
   color: rgb(70, 70, 70);
+  border-radius: 20px;
+  width: 90%;
+  max-width: 850px;
+  margin: 0 auto;
   padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
   text-align: center;
   line-height: 24px;
+}
+
+.Einleitungstext--p {
+  margin: 10px; 
 }
 
 .BoxBilder {
@@ -37,7 +34,6 @@ h1 {
 
 .Bilder {
   justify-content: center;
-  width: 90%;
   max-width: 700px;
   margin: 10px;
   padding: 20px;
