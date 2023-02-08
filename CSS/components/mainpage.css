@@ -4,7 +4,6 @@ main {
 }
 h1 {
   text-align: center;
-  margin-top: 40px;
   padding: 50px;
   color: rgb(100, 100, 100);
   display: flex;
@@ -31,7 +30,6 @@ h1 {
 }
 
 .BoxBilder {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -49,6 +47,3 @@ h1 {
   right: auto;
 }
 
-.Bilder:last-child {
-  margin-bottom: 120px;
-}

@@ -33,13 +33,16 @@ a:hover {
   color: rgb(100, 100, 100);
 }
 
-/* Ab hier Footer */
+
+
+
+/* -------- Ab hier Footer ------- */
 
 .personalWebsite__footer {
-  margin-top: 40px;
-  position: absolute;
-  bottom: 0;
+  position: relative ;
   width: 100%;
+  bottom: 0px;
+  margin-top: 100px; 
 }
 
 .personalWebsite__footer_nav {
@@ -54,7 +57,7 @@ a:hover {
   background: rgb(188, 188, 188);
 }
 
-.personalWebsite__footer_nav a {
+.personalWebsite__footer_nav {
   font-size: 20px;
   color: white;
   text-decoration: none;
