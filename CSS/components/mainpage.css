@@ -42,15 +42,8 @@ h1 {
 
 @media screen {
   .Bilder {
-    width: 80%;
+    width: 95%;
     max-width: 750px;
   } 
 }  
 
-/*
-@media (width > 1440px) {
-  .Bilder {
-    width: 80%;
-    max-width: 800px; }
-  
-} */
